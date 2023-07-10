@@ -17,11 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-stone-950 overflow-hidden;
+}
+
+* {
+  @apply text-slate-100
+}
+
+@layer components {
+  .container {
+    @apply max-w-screen-xl mx-auto px-4;
+  }
+  .header--menu-item {
+    @apply border-b-2 transition ease-in-out duration-300 border-stone-950 hover:border-b-2 hover:border-slate-100 text-2xl md:text-base;
+  }
 }
