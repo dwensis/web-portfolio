@@ -31,5 +31,13 @@ body {
   .header--menu-item {
     @apply border-b-2 transition ease-in-out duration-300 border-stone-950 hover:border-b-2 hover:border-slate-100 text-2xl md:text-base;
   }
+  .form-field {
+    @apply flex flex-col gap-3
+  }
+  .form-field input:not([type="submit"]),
+  .form-field textarea {
+    @apply focus:outline-0 bg-gray-900 py-2.5 px-5 rounded-lg
+  }
 }
+
 

@@ -11,16 +11,24 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'gradient' : 'linear-gradient(to right, purple, orange 50%, #fff 50%);'
+        'gradient' : 'linear-gradient(to right, #9D00ED, orange 50%, #fff 50%);',
+        'contact-gradient' : 'linear-gradient(to right, #9D00ED, orange)'
       },
       backgroundSize: {
         '200' : '200% 100%',
+        '80' : '80% 100%',
         '100' : '0% 100%',
       },
       backgroundPosition: {
         'end' : '100%',
         'start' : '0% 100%'
-      }
+      },
+      borderRadius: {
+        '5xl' : '7rem',
+      },
+      colors: {
+        'custom-purple' : '#9D00ED',
+      },
     },
   },
   plugins: [],

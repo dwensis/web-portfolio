@@ -18,7 +18,7 @@ export default function Header() {
                             <div className="w-6 bg-white h-0.5 rounded-full"></div>
                             <div className="w-6 bg-white h-0.5 rounded-full"></div>
                         </button>
-                        <div className="header--menu flex gap-4 hidden md:flex">
+                        <div className="header--menu flex gap-8 hi dden md:flex">
                             <a href="/" className="header--menu-item">Home</a>
                             <a href="/services" className="header--menu-item">Services</a>
                             <a href="/portfolio" className="header--menu-item">Projects</a>
